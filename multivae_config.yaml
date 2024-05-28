@@ -1,0 +1,42 @@
+# ------------------------------- #
+#   Data and Path Information   #
+# ------------------------------- #
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+
+# ------------------------------- #
+#       Model Hyper-parameters      #
+# ------------------------------- #
+model: MultiVAE
+embedding_size: 64
+reg_weight: 1e-4
+dropout_prob: 0.5
+anneal_cap: 0.2
+
+# ------------------------------- #
+#       Training Hyper-parameters     #
+# ------------------------------- #
+train_batch_size: 4096
+learner: adam
+learning_rate: 0.001
+epochs: 300
+eval_step: 10
+stopping_step: 10
+valid_metric: Hit@10
+topk: 10
+
+# ------------------------------- #
+#         Evaluation Setting        #
+# ------------------------------- #
+metric: ["Recall", "MRR", "NDCG", "Hit", "Precision"]
+eval_args:
+  split: {'RS': [0.8, 0.1, 0.1]}
+  group_by: user
+  order: RO
+
+# ------------------------------- #
+#   Other Hyper-parameters        #
+# ------------------------------- #
+seed: 2022
+gpu_id: 0  # Set to -1 if using CPU

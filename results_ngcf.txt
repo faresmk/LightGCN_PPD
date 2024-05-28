@@ -1,0 +1,9 @@
+==================== ml-100k-NGCF ====================
+{'best_valid_score': 0.755, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2231), ('mrr@10', 0.398), ('ndcg@10', 0.2395), ('hit@10', 0.755), ('precision@10', 0.1663)]), 'test_result': OrderedDict([('recall@10', 0.2605), ('mrr@10', 0.4873), ('ndcg@10', 0.2999), ('hit@10', 0.8134), ('precision@10', 0.2069)])}
+
+==================== Amazon_Books_sampled-NGCF ====================
+{'best_valid_score': 0.1834, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.0611), ('mrr@10', 0.0581), ('ndcg@10', 0.0405), ('hit@10', 0.1834), ('precision@10', 0.02)]), 'test_result': OrderedDict([('recall@10', 0.0564), ('mrr@10', 0.0568), ('ndcg@10', 0.038), ('hit@10', 0.174), ('precision@10', 0.0188)])}
+
+==================== gowalla_sampled-NGCF ====================
+{'best_valid_score': 0.5991, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2365), ('mrr@10', 0.2873), ('ndcg@10', 0.1899), ('hit@10', 0.5991), ('precision@10', 0.0939)]), 'test_result': OrderedDict([('recall@10', 0.2466), ('mrr@10', 0.3261), ('ndcg@10', 0.2132), ('hit@10', 0.5886), ('precision@10', 0.0968)])}
+

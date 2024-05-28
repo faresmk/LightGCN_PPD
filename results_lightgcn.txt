@@ -1,0 +1,9 @@
+==================== ml-100k-LightGCN ====================
+{'best_valid_score': 0.7487, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2125), ('mrr@10', 0.3896), ('ndcg@10', 0.229), ('hit@10', 0.7487), ('precision@10', 0.1584)]), 'test_result': OrderedDict([('recall@10', 0.2518), ('mrr@10', 0.4807), ('ndcg@10', 0.2915), ('hit@10', 0.7964), ('precision@10', 0.1988)])}
+
+==================== Amazon_Books_sampled-LightGCN ====================
+{'best_valid_score': 0.1845, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.0608), ('mrr@10', 0.0624), ('ndcg@10', 0.0418), ('hit@10', 0.1845), ('precision@10', 0.02)]), 'test_result': OrderedDict([('recall@10', 0.0536), ('mrr@10', 0.0599), ('ndcg@10', 0.0384), ('hit@10', 0.1662), ('precision@10', 0.0184)])}
+
+==================== gowalla_sampled-LightGCN ====================
+{'best_valid_score': 0.5805, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2229), ('mrr@10', 0.2946), ('ndcg@10', 0.1905), ('hit@10', 0.5805), ('precision@10', 0.0949)]), 'test_result': OrderedDict([('recall@10', 0.236), ('mrr@10', 0.3193), ('ndcg@10', 0.2027), ('hit@10', 0.5749), ('precision@10', 0.0973)])}
+

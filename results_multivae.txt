@@ -1,0 +1,9 @@
+==================== ml-100k-MultiVAE ====================
+{'best_valid_score': 0.7688, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2258), ('mrr@10', 0.385), ('ndcg@10', 0.2348), ('hit@10', 0.7688), ('precision@10', 0.1599)]), 'test_result': OrderedDict([('recall@10', 0.2715), ('mrr@10', 0.475), ('ndcg@10', 0.2974), ('hit@10', 0.8229), ('precision@10', 0.2007)])}
+
+==================== Amazon_Books_sampled-MultiVAE ====================
+{'best_valid_score': 0.1771, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.0578), ('mrr@10', 0.0611), ('ndcg@10', 0.0409), ('hit@10', 0.1771), ('precision@10', 0.0192)]), 'test_result': OrderedDict([('recall@10', 0.0572), ('mrr@10', 0.0579), ('ndcg@10', 0.0388), ('hit@10', 0.1713), ('precision@10', 0.0191)])}
+
+==================== gowalla_sampled-MultiVAE ====================
+{'best_valid_score': 0.6145, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.2511), ('mrr@10', 0.2713), ('ndcg@10', 0.1935), ('hit@10', 0.6145), ('precision@10', 0.0894)]), 'test_result': OrderedDict([('recall@10', 0.2756), ('mrr@10', 0.3124), ('ndcg@10', 0.2226), ('hit@10', 0.6065), ('precision@10', 0.0969)])}
+
